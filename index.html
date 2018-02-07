@@ -6,10 +6,11 @@
   <meta name="viewport" content="width=device-width, initial-scale=1.0">
   <meta http-equiv="X-UA-Compatible" content="ie=edge">
 
-  <link rel="apple-touch-icon" sizes="180x180" href="img/favicons/apple-touch-icon.png">
-  <link rel="icon" type="image/png" sizes="32x32" href="img/favicons/favicon-32x32.png">
-  <link rel="icon" type="image/png" sizes="16x16" href="img/favicons/favicon-16x16.png">
-  <link rel="manifest" href="img/favicons/manifest.json">
+  <link rel="apple-touch-icon" sizes="180x180" href="/img/favicon/apple-touch-icon.png">
+  <link rel="icon" type="image/png" sizes="32x32" href="/img/favicon/favicon-32x32.png">
+  <link rel="icon" type="image/png" sizes="16x16" href="/img/favicon-16x16.png">
+  <link rel="mask-icon" href="/safari-pinned-tab.svg" color="#5bbad5">
+  <meta name="msapplication-TileColor" content="#da532c">
   <meta name="theme-color" content="#ffffff">
 
   <!--  YOUR STYLES  -->
@@ -21,37 +22,49 @@
 <body class="uk-container">
 
   <!-- Page Wrapper -->
+  
   <main uk-grid>
-
+    
     <!-- Header -->
-    <header class="uk-width-1-1">
+    <header class="uk-align-center uk-width-1-1@s">
       <h1>Howl's Moving Castle</h1>
-    </header>  
+    
+    <!-- Nav bar -->
+    <nav class="uk-navbar-container" uk-navbar>
+    <div class="uk-navbar-left">
+        <ul class="uk-navbar-nav">
+            <li><a href="http://www.imdb.com/title/tt0347149/">IMBD Page</a></li>
+            <li><a href="https://en.wikipedia.org/wiki/Howl%27s_Moving_Castle_(film)">Wiki</a>
+            <li><a href="https://en.wikipedia.org/wiki/Hayao_Miyazaki">Hayao Miyazaki</a></li>
+            <li><a href="https://codepen.io/orbitGirl/post/howl-s-moving-castle">Blog Post</a></li>
+        </ul>
+     </div>
+  </nav>
+</header>
       
     <!-- Trailer -->
     <video>
-      <source src="https://ewuweblab.github.io/movie-trailer/video/trailer.mp4" type="video/mp4" />
-      <source src="https://ewuweblab.github.io/movie-trailer/video/trailer.webm" type="video/webm" />
+      <source src="https://orbitgirl21.github.io/howls-moving-castle/video/trailer.mp4" type="video/mp4" />
+      <source src="https://orbitgirl21.github.io/howls-moving-castle/video/trailier.webm" type="video/webm" />
     </video>
 
     <!-- Content -->
     <article class="uk-width-1-2@s">
-      <p>Lorem ipsum dolor sit amet, consectetur adipisicing elit. Explicabo expedita necessitatibus harum mollitia in sunt perspiciatis fugit provident magnam deleniti quasi minima, at quo doloribus accusantium inventore recusandae optio aperiam! Lorem
-        ipsum dolor sit amet, consectetur adipisicing elit. Reprehenderit in saepe nemo molestiae dignissimos ipsa enim, vel illo incidunt officia! Dolorem suscipit odio aliquid non libero sapiente! Consequuntur, error, quam!</p>
+      <p>When an unconfident young woman is cursed with an old body by a spiteful witch, her only chance of breaking the spell lies with a self-indulgent yet insecure young wizard and his companions in his legged, walking castle. In this film she learns about embracing the unbecomings that happen to her, and she learns to fall in love, and accept herself for who she is. </p>
     </article>
-
-    <!-- Aside -->
-    <aside class="uk-width-1-2@s">
-      <ul>
-        <li><a href="#">Link 1</a></li>
-        <li><a href="#">Link 2</a></li>
-        <li><a href="#">Link 3</a></li>
-      </ul>
-    </aside>
-  
+    
+    <div class="uk-width-1-2@s">
+      <img src="/img/howl.png" alt="Howl"/>
+          <img src="/img/sophie.jpg" alt="Sophie"/>
+          <img src="/img/witch.jpg" alt="Witch of the East"/>
+          <img src="/img/markle.jpg" alt="Markle"/>
+          <img src="/img/calcifer.jpg" alt="Calcifer"/>
+          <img src="/img/dog.jpg" alt="Pupper"/>
+    </div>
+    
   <!-- Footer -->
     <footer class="uk-width-1-1">
-      <p>Studio Films Copyright Year</p>
+      <p>Kaitlyn Wegner Copyright 2018</p>
     </footer>
     
   </main>

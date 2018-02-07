@@ -1,2 +1,44 @@
 @import "uikit.min";
 @import "mediaplayer.min";
+
+@import url('https://fonts.googleapis.com/css?family=Anton|Merienda');
+
+// Body
+html {
+  background: url("../img/stars.gif");
+}
+
+//Headliner
+h1{
+  color:white;
+  text-transform: uppercase;
+}
+
+//BODY FONT
+//Score: 0, 0, 0, 2
+article p{
+  color:white;
+  font-family: 'Merienda', cursive;
+}
+
+.uk-container{
+  max-width:90%;
+}
+
+h1{
+  font-family: 'Anton', sans-serif;
+}
+
+video{
+  display: block;
+  margin: 0 auto;
+}
+
+img{
+  max-width:100%;
+  margin: 5px;
+  padding: 5px;
+}
+
+
+
