@@ -11,12 +11,14 @@ html {
 //Headliner
 h1{
   color:white;
+  font-family: 'Anton', sans-serif;
   text-transform: uppercase;
+  font-size:100px;
 }
 
 //BODY FONT
 //Score: 0, 0, 0, 2
-article p{
+article p, h3{
   color:white;
   font-family: 'Merienda', cursive;
 }
@@ -25,20 +27,19 @@ article p{
   max-width:90%;
 }
 
-h1{
-  font-family: 'Anton', sans-serif;
-}
-
 video{
   display: block;
   margin: 0 auto;
 }
 
 img{
-  max-width:100%;
+  max-width: 100%;
   margin: 5px;
   padding: 5px;
 }
-
+footer p{
+  color:gray;
+  font-family: 'Merienda', cursive;
+}
 
 
