@@ -10,17 +10,30 @@ html {
 
 //Headliner
 h1{
+  padding:50px;
+  text-align:center;
   color:white;
   font-family: 'Anton', sans-serif;
   text-transform: uppercase;
   font-size:100px;
+  
+  transition: margin-top .5s ease-in-out;
+  //   Justice's solution
+  position: relative;
 }
 
+h1:hover{
+  transition: 2.5s ease-in-out;
+  color:#8406D3;
+}
 //BODY FONT
 //Score: 0, 0, 0, 2
 article p, h3{
   color:white;
   font-family: 'Merienda', cursive;
+}
+h3{
+  font-size:50px;
 }
 
 .uk-container{
@@ -41,5 +54,52 @@ footer p{
   color:gray;
   font-family: 'Merienda', cursive;
 }
+
+div.shit{
+  height:200px;
+  width:200px;
+  text-align:center;
+  display:inline-block;
+  
+  overflow:hidden;
+}
+
+//firstFrame
+h4{
+  transition: margin-top .5s ease-in-out;
+  //   Justice's solution
+  position: relative;
+}
+
+.shit:hover h4 {
+  padding: 1em;
+  margin-top: -50px;  
+  color:white;
+  background:#8406D3;
+} 
+
+
+//http://bl.ocks.org/imkevinxu/4401674
+//Also Credit to Sarah via Maddie
+.fadeIn {
+  opacity: 0;
+  animation: fadeIn 1.8s forwards;
+}
+
+@keyframes fadeIn {
+  0% {
+    opacity: 0;
+    transform: translateY(50px);
+  }
+  30% {
+    opacity: 0;
+  }
+  100% {
+    opacity: 1;
+    transform: translateY(0);
+  }
+}
+
+
 
 
