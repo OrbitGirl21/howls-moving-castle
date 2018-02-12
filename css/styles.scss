@@ -1,7 +1,7 @@
 @import "uikit.min";
 @import "mediaplayer.min";
 
-@import url('https://fonts.googleapis.com/css?family=Anton|Merienda');
+@import url('https://fonts.googleapis.com/css?family=Anton|Merienda|Kavivanar|Amatic+SC');
 
 // Body
 html {
@@ -36,10 +36,18 @@ h3{
   font-size:50px;
 }
 
+//Nav bar
+ul.uk-navbar-nav>li>a {
+  font-size:40px;
+  font-family: 'Amatic SC', cursive;
+  color: #8406D3;
+}
+
 .uk-container{
   max-width:90%;
 }
 
+//video
 video{
   display: block;
   margin: 0 auto;
@@ -66,19 +74,23 @@ div.shit{
 
 //firstFrame
 h4{
+  font-family: 'Kavivanar', cursive;
+  opacity:0;
   transition: margin-top .5s ease-in-out;
   //   Justice's solution
   position: relative;
 }
 
+//Hover and second frame
 .shit:hover h4 {
+  opacity:1;
   padding: 1em;
   margin-top: -50px;  
   color:white;
   background:#8406D3;
 } 
 
-
+//This works for the H1 header
 //http://bl.ocks.org/imkevinxu/4401674
 //Also Credit to Sarah via Maddie
 .fadeIn {

@@ -1,5 +1,5 @@
 @charset "UTF-8";
-@import url("https://fonts.googleapis.com/css?family=Anton|Merienda");
+@import url("https://fonts.googleapis.com/css?family=Anton|Merienda|Kavivanar|Amatic+SC");
 html {
   font-family: -apple-system, BlinkMacSystemFont, "Segoe UI", Roboto, "Helvetica Neue", Arial, sans-serif;
   font-size: 16px;
@@ -11481,6 +11481,12 @@ h3 {
   font-size: 50px;
 }
 
+ul.uk-navbar-nav>li>a {
+  font-size: 40px;
+  font-family: 'Amatic SC', cursive;
+  color: #8406D3;
+}
+
 .uk-container {
   max-width: 90%;
 }
@@ -11510,11 +11516,14 @@ div.shit {
 }
 
 h4 {
+  font-family: 'Kavivanar', cursive;
+  opacity: 0;
   transition: margin-top .5s ease-in-out;
   position: relative;
 }
 
 .shit:hover h4 {
+  opacity: 1;
   padding: 1em;
   margin-top: -50px;
   color: white;
